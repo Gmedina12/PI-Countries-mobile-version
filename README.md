@@ -95,14 +95,6 @@ Continuation of the [PI-Countries Project]( https://github.com/Gmedina12/PI-Coun
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::..............................................::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 <br/>  
 
-
-## Recent Blog Posts  
-  
-
-<br/>  
-
-  
-
 <br/>  
 
 <div align="center">
@@ -124,4 +116,4 @@ Continuation of the [PI-Countries Project]( https://github.com/Gmedina12/PI-Coun
 ----
 <div align="center">Generated using <a href="https://profilinator.rishav.dev/" target="_blank">Github Profilinator</a></div>
 
-By Gmedina12 - opensource
+<h5><i>By Gmedina12 - opensource</i></h5>
