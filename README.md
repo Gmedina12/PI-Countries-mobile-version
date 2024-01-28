@@ -6,7 +6,7 @@
 ### <div align="center">Project Overview: Flutter Mobile App for PI-Countries 👨‍💻 🚀</div>  
   
 
-- 🔭 I’m currently working on [Github Profilinator](https://github.com/rishavanand/github-profilinator)  
+- 🔭 This an independent project.
   
 
 - ❓ Ask me about anything related to the challenges I faced while working on this project.  
