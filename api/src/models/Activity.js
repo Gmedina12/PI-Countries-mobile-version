@@ -25,6 +25,9 @@ module.exports = (sequelize) => {
             type:DataTypes.TEXT,
             allowNull:false
         },
+        review: {
+            type:DataTypes.TEXT,
+        },
         difficulty: {
             type: DataTypes.ENUM('Hard','Medium', 'Easy'),
             allowNull: false 

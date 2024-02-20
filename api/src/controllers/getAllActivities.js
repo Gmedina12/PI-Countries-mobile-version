@@ -7,7 +7,7 @@ const getAllActivities = async (req, res) => {
     const activities = await Activity.findAll({
       include: {
         model: Country,
-        attributes: ['ID','name','flags', 'continents', 'coatOfArms', 'capital', 'subregion', 'maps', 'area', 'population']
+        attributes: ['ID','name','flags', 'continents', 'capital', 'subregion', 'maps', 'area', 'population']
       }
     });
     res.status(200).json(activities);
