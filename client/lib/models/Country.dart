@@ -15,4 +15,20 @@ class Country {
 
   Country(this.name, this.flags, this.area, this.capital, this.continents, this.maps, this.population, this.subregion);
 
+
+
+ Map<String, dynamic> toMap() {
+    return {
+
+      'name': name,
+      'flags': flags,
+      'continents': continents,
+      'capital': capital,
+      'subregion':subregion,
+      'maps': maps,
+      'area': area,
+      'population':  population 
+
+      };
+  }
 }
