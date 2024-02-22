@@ -9,7 +9,7 @@ class Activity {
   final String name;
   final String picture;
   final String review;
-  final int rating;
+  List <int> rating = [];
   final int durationinHours;
   final Edifficulty difficulty;
   final Eseason season;
@@ -28,6 +28,15 @@ class Activity {
       'difficulty': difficulty.toString().split('.').last,
       'season': season.toString().split('.').last,
     };
+
+  }
+  double get ratingAverage {
+    return rating.reduce((a, b) => a + b) /rating.length;
+  }
+  void addRating (int score) {
+    if(score >= 1 && score <= 5){
+      rating.add(score);
+    }
   }
 }
 
